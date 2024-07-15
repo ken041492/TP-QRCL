@@ -32,20 +32,6 @@ class ScanQrcodeViewController: NSViewController {
         view.window?.setFrame(NSScreen.main!.frame, display: false, animate: false)
         view.window?.orderFrontRegardless()
         
-//        let allScreens = NSScreen.screens
-//        for screen in allScreens {
-//            let window = CustomWindow(contentRect: screen.frame, styleMask: [.fullSizeContentView], backing: .buffered, defer: false)
-//            window.level = .mainMenu
-//            window.collectionBehavior = [ .stationary, .canJoinAllSpaces]
-//            window.styleMask = [ .nonactivatingPanel]
-//            window.setFrame(screen.frame, display: true, animate: true)
-//            window.orderFrontRegardless()
-//            window.isMovable = false
-//            window.isMovableByWindowBackground = false
-//            window.isExcludedFromWindowsMenu = true
-//            window.contentViewController = self
-//            window.makeKeyAndOrderFront(nil)
-//        }
     }
     
     override func viewDidLoad() {
