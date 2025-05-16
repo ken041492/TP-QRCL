@@ -6,9 +6,9 @@
             <title>1.4</title>
             <pubDate>Fri, 16 May 2025 21:21:54 +0800</pubDate>
             <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.4/TP-QRCL1.4.dmg" length="3259857" type="application/octet-stream" sparkle:edSignature="qisnkIjNTt22UEIdZGgylCgKvpPyJ8hFIMl6P5QLZmUxkbv86Wi0KfjUQY9XNud++VZqY+Q0r2MED5vGnKwFBA=="/>
+            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.5/TP-QRCL1.5.dmg" length="3259932" type="application/octet-stream" sparkle:edSignature="ww/8tLvlu5AzGGB8lY+WMpqAmVkToosIZO63JZUcOQvqk0PInjPv6O5uJ4ACPQ4g9gg+579rk6JNLKEoz5f3Bg=="/>
         </item>
     </channel>
 </rss>
