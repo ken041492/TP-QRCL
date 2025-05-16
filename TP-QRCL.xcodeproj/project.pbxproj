@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF16FE62DD47B20006ABA0C /* CheckUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16FE52DD47B20006ABA0C /* CheckUpdate.swift */; };
+		3FF16FFA2DD4A1B1006ABA0C /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF16FF92DD4A1B1006ABA0C /* Sparkle */; };
 		8E4712A32B9EE19800FF5959 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4712A22B9EE19800FF5959 /* NetworkManager.swift */; };
 		8E93BBE12B9EE29700D88EA5 /* SwiftyPing in Frameworks */ = {isa = PBXBuildFile; productRef = 8E93BBE02B9EE29700D88EA5 /* SwiftyPing */; };
 		8E93BBE42B9EE8E600D88EA5 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93BBE22B9EE8E600D88EA5 /* LockViewController.swift */; };
@@ -55,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3FF16FE52DD47B20006ABA0C /* CheckUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUpdate.swift; sourceTree = "<group>"; };
 		8E4712A22B9EE19800FF5959 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		8E93BBE22B9EE8E600D88EA5 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
 		8E93BBE32B9EE8E600D88EA5 /* LockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LockViewController.xib; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 				F9BA53282C08BF3B005F4C6E /* FirebaseCrashlytics in Frameworks */,
 				8E93BBE12B9EE29700D88EA5 /* SwiftyPing in Frameworks */,
 				F9BA532C2C08BF3B005F4C6E /* FirebaseMessaging in Frameworks */,
+				3FF16FFA2DD4A1B1006ABA0C /* Sparkle in Frameworks */,
 				F9BA532A2C08BF3B005F4C6E /* FirebaseDatabase in Frameworks */,
 				F9BA53262C08BF3B005F4C6E /* FirebaseAuth in Frameworks */,
 			);
@@ -112,12 +116,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FF16FE42DD47AFE006ABA0C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16FE52DD47B20006ABA0C /* CheckUpdate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		8E47129F2B9EE14100FF5959 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F9BA53022C08B088005F4C6E /* Firebase */,
 				F9BA52FF2C0871DD005F4C6E /* AppDefine.swift */,
 				F9BA52FE2C0871DD005F4C6E /* UserPreference.swift */,
+				3FF16FE42DD47AFE006ABA0C /* Utilities */,
+				F9BA53022C08B088005F4C6E /* Firebase */,
 				F9BA52F12C087014005F4C6E /* extensions */,
 				8E4712A12B9EE17E00FF5959 /* Network */,
 			);
@@ -269,6 +282,7 @@
 				F9BA53272C08BF3B005F4C6E /* FirebaseCrashlytics */,
 				F9BA53292C08BF3B005F4C6E /* FirebaseDatabase */,
 				F9BA532B2C08BF3B005F4C6E /* FirebaseMessaging */,
+				3FF16FF92DD4A1B1006ABA0C /* Sparkle */,
 			);
 			productName = FullScreenDemo;
 			productReference = 8EFAA8862B9599F9003117F4 /* TP-QRCL.app */;
@@ -321,6 +335,7 @@
 			packageReferences = (
 				8E47129E2B9EE12D00FF5959 /* XCRemoteSwiftPackageReference "SwiftyPing" */,
 				F9BA53242C08BF3B005F4C6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3FF16FF82DD4A1B1006ABA0C /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			productRefGroup = 8EFAA8872B9599F9003117F4 /* Products */;
 			projectDirPath = "";
@@ -364,6 +379,7 @@
 				F9BA52E32C086E52005F4C6E /* NetworkConstants.swift in Sources */,
 				F9BA52E02C086CA6005F4C6E /* ScanQrcodeViewController.swift in Sources */,
 				8E93BBE42B9EE8E600D88EA5 /* LockViewController.swift in Sources */,
+				3FF16FE62DD47B20006ABA0C /* CheckUpdate.swift in Sources */,
 				F9BA52F52C087046005F4C6E /* Digest+Extensions.swift in Sources */,
 				F9BA52FB2C0870CC005F4C6E /* String+Extensions.swift in Sources */,
 				F9BA52EE2C086FB0005F4C6E /* QRCredentialManager.swift in Sources */,
@@ -546,7 +562,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tekpass.tpqrcl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -578,7 +594,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tekpass.tpqrcl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -681,6 +697,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3FF16FF82DD4A1B1006ABA0C /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
 		8E47129E2B9EE12D00FF5959 /* XCRemoteSwiftPackageReference "SwiftyPing" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/samiyr/SwiftyPing";
@@ -700,6 +724,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3FF16FF92DD4A1B1006ABA0C /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FF16FF82DD4A1B1006ABA0C /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
 		8E93BBE02B9EE29700D88EA5 /* SwiftyPing */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8E47129E2B9EE12D00FF5959 /* XCRemoteSwiftPackageReference "SwiftyPing" */;

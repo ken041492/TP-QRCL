@@ -2,7 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>NSApplicationCrashOnExceptions</key>
-    <true/>
+	<key>NSApplicationCrashOnExceptions</key>
+	<true/>
+	<key>SUPublicEDKey</key>
+	<string>ip4tiz8oCFabqDgm3SVX+fYqk6peXmBMtWVpIcfI3r8=</string>
 </dict>
 </plist>

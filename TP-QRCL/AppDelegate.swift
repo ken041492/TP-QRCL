@@ -10,6 +10,7 @@ import ServiceManagement
 import FirebaseCore
 import FirebaseMessaging
 import CoreGraphics
+import Sparkle
 
 
 @main
@@ -25,6 +26,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         FirebaseApp.configure()
+//        CheckUpdate.shared.showUpdate(withConfirmation: true, isTestFlight: true)
+        var updater = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil).updater
+        
+        updater.checkForUpdates()
+        
         mirrorDisplays()
         
         Task {
