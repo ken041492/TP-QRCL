@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>TP-QRCL</title>
+        <title>TP-QRCL1.4</title>
         <item>
-            <title>1.5</title>
-            <pubDate>Fri, 16 May 2025 13:51:03 +0800</pubDate>
+            <title>1.4</title>
+            <pubDate>Fri, 16 May 2025 20:19:08 +0800</pubDate>
             <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.5</sparkle:shortVersionString>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.5/TP-QRCL.dmg" length="3433532" type="application/octet-stream" sparkle:edSignature="TEjWfIbuY4MBLZ0sri8QKq/05jEWY7YHrnrdB6uIZb8/2VGOEDdtcqc8KLwxYSRDXZw18EgReI9PmATy7/u5AA=="/>
+            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.4/TP-QRCL1.4.dmg" length="3281918" type="application/octet-stream" sparkle:edSignature="X8UyzvfWIoGSTngcjNJkJ7eL6nagHdPXAm1nni9fNCNDExua8MQHA+zOZdS9dtCnon/xHjihLjWvhrF8i5dMDg=="/>
         </item>
     </channel>
 </rss>

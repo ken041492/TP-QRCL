@@ -4,9 +4,11 @@
 <dict>
 	<key>NSApplicationCrashOnExceptions</key>
 	<true/>
-	<key>SUPublicEDKey</key>
-	<string>ip4tiz8oCFabqDgm3SVX+fYqk6peXmBMtWVpIcfI3r8=</string>
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
 	<key>SUFeedURL</key>
 	<string>https://github.com/ken041492/TP-QRCL/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>ip4tiz8oCFabqDgm3SVX+fYqk6peXmBMtWVpIcfI3r8=</string>
 </dict>
 </plist>
