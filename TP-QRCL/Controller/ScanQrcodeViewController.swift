@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import Sparkle
 
 enum Action {
     
@@ -17,7 +18,8 @@ enum Action {
 class ScanQrcodeViewController: NSViewController {
     
     var action: Action = .open
-    
+    var updater = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil).updater
+    @IBOutlet weak var btn: NSButtonCell!
     @IBOutlet weak var lbTitle: NSTextField!
     
     @IBOutlet weak var lbIP: NSTextField!
@@ -27,17 +29,21 @@ class ScanQrcodeViewController: NSViewController {
     override func viewDidAppear() {
         
         view.window?.level = .mainMenu
-        view.window?.collectionBehavior = [ .stationary, .canJoinAllSpaces]
-        view.window?.styleMask = [ .nonactivatingPanel]
-        view.window?.setFrame(NSScreen.main!.frame, display: false, animate: false)
-        view.window?.orderFrontRegardless()
+//        view.window?.collectionBehavior = [ .stationary, .canJoinAllSpaces]
+//        view.window?.styleMask = [ .nonactivatingPanel]
+//        view.window?.setFrame(NSScreen.main!.frame, display: false, animate: false)
+//        view.window?.orderFrontRegardless()
         
     }
     
+    @IBAction func b(_ sender: Any) {
+
+        updater.checkForUpdates()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        generateQRcodeAndWaitAuth()
+//        generateQRcodeAndWaitAuth()
     }
     
     func setupUI() {

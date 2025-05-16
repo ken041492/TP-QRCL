@@ -31,7 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         updater.checkForUpdates()
         
-        mirrorDisplays()
+//        mirrorDisplays()
         
         Task {
            try SMAppService().register()
@@ -69,11 +69,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let vc = LockViewController()
         window.contentViewController = vc
         window.level = .mainMenu
-        window.collectionBehavior = [ .stationary, .canJoinAllSpaces]
-        window.styleMask = [ .nonactivatingPanel]
-        
-        window.setFrame(NSScreen.main!.frame, display: true, animate: true)
-        window.orderFrontRegardless()
+//        window.collectionBehavior = [ .stationary, .canJoinAllSpaces]
+//        window.styleMask = [ .nonactivatingPanel]
+//        
+//        window.setFrame(NSScreen.main!.frame, display: true, animate: true)
+//        window.orderFrontRegardless()
         
     }
     

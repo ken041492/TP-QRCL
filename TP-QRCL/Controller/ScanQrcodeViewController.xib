@@ -8,6 +8,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="ScanQrcodeViewController" customModule="TP_QRCL" customModuleProvider="target">
             <connections>
+                <outlet property="btn" destination="PKB-u3-Xho" id="kPP-NQ-5Jt"/>
                 <outlet property="imgQrcode" destination="sHF-dY-j6e" id="urN-go-KQm"/>
                 <outlet property="lbIP" destination="7bi-eg-ohG" id="bSg-N4-tTj"/>
                 <outlet property="lbTitle" destination="UxP-4q-iVB" id="XY9-h1-ihc"/>
@@ -24,7 +25,7 @@
                     <rect key="frame" x="152" y="70" width="180" height="180"/>
                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Hiq-HN-YIa"/>
                 </imageView>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bi-eg-ohG">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7bi-eg-ohG">
                     <rect key="frame" x="90" y="30" width="304" height="24"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="無法取得IP位置，請確認網路" id="RHz-99-8NV">
                         <font key="font" metaFont="system" size="20"/>
@@ -32,7 +33,7 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UxP-4q-iVB">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UxP-4q-iVB">
                     <rect key="frame" x="90" y="266" width="304" height="24"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="請透過TekPass App進行掃描" id="Ucb-8i-cNh">
                         <font key="font" metaFont="system" size="20"/>
@@ -40,6 +41,17 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hx5-XD-lHQ">
+                    <rect key="frame" x="13" y="261" width="75" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PKB-u3-Xho">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <connections>
+                            <action selector="b:" target="-2" id="8TZ-9s-xhd"/>
+                        </connections>
+                    </buttonCell>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstItem="7bi-eg-ohG" firstAttribute="top" secondItem="sHF-dY-j6e" secondAttribute="bottom" constant="16" id="30E-JN-02z"/>
