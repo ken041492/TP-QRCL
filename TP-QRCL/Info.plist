@@ -6,5 +6,7 @@
 	<true/>
 	<key>SUPublicEDKey</key>
 	<string>ip4tiz8oCFabqDgm3SVX+fYqk6peXmBMtWVpIcfI3r8=</string>
+	<key>SUFeedURL</key>
+	<string>https://github.com/ken041492/TP-QRCL/blob/main/TP-QRCL-1.4.zip</string>
 </dict>
 </plist>
