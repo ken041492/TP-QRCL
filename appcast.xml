@@ -8,7 +8,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.4/TP-QRCL1.4.dmg" length="3259215" type="application/octet-stream" sparkle:edSignature="8Z3lKYDKxV7WoM8TWtIlGYNMUU4BuJ3ZTvRtvPlttsuMY0+EK3D1GHyxwf0tYi4UWjANlGnwpD3SIFqvsFkWDQ=="/>
+            <enclosure url="https://github.com/ken041492/TP-QRCL/releases/download/v1.4/TP-QRCL1.4.dmg" length="3259857" type="application/octet-stream" sparkle:edSignature="qisnkIjNTt22UEIdZGgylCgKvpPyJ8hFIMl6P5QLZmUxkbv86Wi0KfjUQY9XNud++VZqY+Q0r2MED5vGnKwFBA=="/>
         </item>
     </channel>
 </rss>

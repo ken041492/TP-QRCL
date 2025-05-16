@@ -7,7 +7,7 @@
 	<key>SUEnableInstallerLauncherService</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>https://github.com/ken041492/TP-QRCL/blob/main/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/ken041492/TP-QRCL/refs/heads/main/appcast.xml</string>
 	<key>SUPublicEDKey</key>
 	<string>ip4tiz8oCFabqDgm3SVX+fYqk6peXmBMtWVpIcfI3r8=</string>
 </dict>
